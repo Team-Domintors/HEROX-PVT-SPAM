@@ -133,31 +133,6 @@
         "value": "",
         "required": false
       },
-      "STRING26": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING27": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING28": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING29": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
-      "STRING30": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": false
-      },
       "API_ID": {
         "description": "Telethon String Session",
         "value": "15003082",
