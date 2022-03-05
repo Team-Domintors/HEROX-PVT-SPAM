@@ -1375,41 +1375,6 @@ async def ping(e):
         ms = (end - start).microseconds / 1000
         await event.edit(f"🤤𝐆𝐀𝐍𝐃 !\n`{ms}` 𝗺𝘀\n           ⚔️𝐇𝐄𝐑𝐎𝐗 𝐒𝐏𝐀𝐌𝐁𝐎𝐓⚔️️")
 
-
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-asyn  def alive(e):
-    if e.sender_id in SMEX_USERS:
-        start = datetime.now()
-        text = "𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶 !!"
-        event = await e.reply(text, parse_mode=None, link_preview=None )
-        end = datetime.now()
-        ms = (end-start).microseconds / 1000
-        await event.edit(f".🤖 I Am Still alive Lomdike !!!!\n`{ms}` 𝗺𝘀\n          〄 ╔»⟦★𝐇𝐄𝐑𝐎𝐗★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄")
-        
         
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
