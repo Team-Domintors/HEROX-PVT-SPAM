@@ -909,12 +909,11 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-
 async def _(e):
     usage = "〄 ╔»⟦★𝐇𝐄𝐑𝐎𝐗★⟧«╗ SᑭᗩᗰᗰEᖇ ᗷOT 〄\n\n【﻿×××𝗟𝗲𝗮𝘃𝗲×××】\n【﻿𝘾𝙤𝙢𝙢𝙖𝙣𝙙 :】\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        if len(e.text) == 7:
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
             text = "𝙻𝙴𝙰𝚅𝙸𝙽𝙶....."
